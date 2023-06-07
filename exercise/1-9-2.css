@@ -24,9 +24,11 @@ header{
   background-color: #EEEEEE;
   position: relative;
 }
+
 .box:last-child{
-  margin-right: 0
+  margin-right: 0;
 }
+
 .background1{
   background-image: url(img/flow01.png);
   background-position: bottom;
