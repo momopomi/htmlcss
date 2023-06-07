@@ -228,3 +228,48 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;/* 横幅100% */
+  }
+
+  .social {
+    position: static; /* センターで指定する */
+  }
+
+  .nav-list-item {
+    display: block;
+  }
+
+  .main-visual-content {
+    width: 100%; /* 横幅100% */
+  }
+
+  main {
+    width: 100%; /* 横幅100% */
+    display: block;
+  }
+
+  .blog {
+    width: 100%; /* 横幅100% */
+  }
+
+  .blog-image {
+    width: 50%;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .common-heading {
+    padding-top: 50px;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+}
